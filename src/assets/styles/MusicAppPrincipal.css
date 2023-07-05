@@ -9,13 +9,21 @@ body{
 
 .contenedorDerecho{
     display: flex;
+    flex-direction: column;
+}
 
+.contenedorDerecho iframe{
+    height: 90%;
 }
 
 .contenedorIzquierdo{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.tituloCancion{
+    font-weight: 500;
 }
 
 .contenedorFila{
@@ -39,4 +47,11 @@ body{
 
 .titulo{
     font-size: medium;
+}
+
+.nombreCancion{
+    color: #FFFAFA;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }

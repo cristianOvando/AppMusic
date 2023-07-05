@@ -14,7 +14,7 @@ function MusicAppPrincipal() {
                     <div className="col-4 contenedorIzquierdo">
                             <div className="icon">
                                 <img src={SeFueLaLuz}/>
-                                <p className="h4 titulo">Se fue la luz <br/> Latin mafia, Jesse Baez</p>
+                                <p className="h4 titulo">Se fue la luz <br/> Latin Mafia, Jesse Baez</p>
                             </div>
                             <div className="icon">
                                 <img src={Spiterman} />
@@ -33,6 +33,7 @@ function MusicAppPrincipal() {
                     </div>
                     <div className="col-8 contenedorDerecho">
                         <iframe className="videoPrincipal" src="https://www.youtube.com/embed/T4CEq1nK8rY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p className="h4 nombreCancion"> Se fue la luz <br /> Latin Mafia, Jesse Baez</p>
                      </div>
                 </div>
             </main>       
