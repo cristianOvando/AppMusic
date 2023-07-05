@@ -1,0 +1,42 @@
+body{
+    background-color: #1E1E1E;
+}
+
+.contenedorPadre{
+    display: flex;
+    justify-content: center;    
+}
+
+.contenedorDerecho{
+    display: flex;
+
+}
+
+.contenedorIzquierdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenedorFila{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+}
+
+.videoPrincipal{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFAFA;
+}
+
+.titulo{
+    font-size: medium;
+}
