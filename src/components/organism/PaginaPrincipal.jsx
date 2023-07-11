@@ -13,6 +13,7 @@ function PaginaPrincipal() {
         <>
             <div className='div-landing-content'>
                 <div className='div-landing-hijo'>
+                    <div className='div-landing-hijo-contrasteizquierdo'></div>
                     <div className='container'>
                         <div className='container-text'>
                             <p className="h4">"Escoge como quieres <br/> desconectarte del mundo"</p>
@@ -21,6 +22,7 @@ function PaginaPrincipal() {
                             <button type="button" className="btn-primary btn-sm iniciarSesion" onClick={handlerClickLogin}>INICIAR SESION</button>
                         </div>
                     </div>
+                    <div className='div-landing-hijo-contrastederecho'></div>
                 </div>
             </div>
         </>
